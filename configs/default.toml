@@ -1,0 +1,53 @@
+Name = "default"
+
+[Detail]
+AnimeName_exclusion = [
+    "DMG[\\s\\S]*?",
+    "1080P",
+    "1080p",
+    "720P",
+    "720p",
+    "GB",
+    "MP4",
+    "[0-9]+-[0-9]+[\\s\\S]*?",
+    "CHS",
+    "BDRip",
+    "BD 1920x1080 HEVC-10bit OPUS ASSx2",
+    "Comicat&FZSD",
+    "Airota",
+    "BDRip 1080p AVC AAC",
+    "Nekomoe kissaten",
+    "JPSC",
+    "\\[",
+    "\\]"
+]
+AnimeName = "[\\s\\S]*"
+
+DefaultSeason = "S1"
+
+Category_exclusion = [
+    "DMG[\\s\\S]*?",
+    "1080P",
+    "1080p",
+    "720P",
+    "720p",
+    "GB",
+    "MP4",
+    "0-9+-0-9+\\s\\S]*?",
+    "CHS",
+    "v2",
+    "BDRip",
+    "\\([\\s\\S]*\\)",
+    "BD 1920x1080 HEVC-10bit OPUS ASSx2",
+    "(BDrip 1280x720)-muxed",
+    "S[0-9]+",
+    "x264_AAC",
+    "Comicat&FZSD",
+    "Airota",
+    "BDRip 1080p AVC AAC",
+    "Nekomoe kissaten",
+    "JPSC",
+    "\\[",
+    "\\]"
+]
+Category = "[0-9]+"
